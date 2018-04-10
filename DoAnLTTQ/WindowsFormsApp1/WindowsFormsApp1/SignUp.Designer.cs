@@ -69,7 +69,8 @@
             this.tbSignUserName.TabIndex = 0;
             this.tbSignUserName.Text = "User Name";
             this.tbSignUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.tbSignUserName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbSignUserName_KeyDown);
+            this.tbSignUserName.Enter += new System.EventHandler(this.tbSignUserName_Enter);
+            
             this.tbSignUserName.Leave += new System.EventHandler(this.tbSignUserName_Leave);
             // 
             // tbPassword

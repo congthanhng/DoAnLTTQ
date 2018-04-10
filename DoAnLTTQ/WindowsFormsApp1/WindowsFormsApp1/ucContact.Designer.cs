@@ -37,6 +37,8 @@
             // 
             // pnlContactList
             // 
+            this.pnlContactList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlContactList.AutoScroll = true;
             this.pnlContactList.AutoScrollMinSize = new System.Drawing.Size(80, 0);
             this.pnlContactList.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -61,6 +63,8 @@
             // btnFriend
             // 
             this.btnFriend.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(51)))), ((int)(((byte)(56)))));
+            this.btnFriend.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnFriend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(70)))), ((int)(((byte)(77)))));
             this.btnFriend.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFriend.BorderRadius = 0;

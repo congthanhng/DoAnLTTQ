@@ -79,11 +79,11 @@ namespace WindowsFormsApp1
             }
         }
 
-
-        private void tbSignUserName_KeyDown(object sender, KeyEventArgs e)
+        private void tbSignUserName_Enter(object sender, EventArgs e)
         {
             tbSignUserName.Text = "";
         }
+        
 
         //Your Name
         private void tbName_Enter(object sender, EventArgs e)
@@ -109,6 +109,7 @@ namespace WindowsFormsApp1
             lbLogin.ForeColor = Color.White;
         }
 
+       
     }
     }
 
